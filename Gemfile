@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rubocop'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
@@ -40,6 +42,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+
   # used for renaming the app
   gem 'rename'
 
