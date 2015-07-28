@@ -43,6 +43,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
 
+  gem 'guard-rubocop'
   # used for renaming the app
   gem 'rename'
 
