@@ -54,6 +54,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    apipie-rails (0.3.4)
+      json
     arbre (1.0.3)
       activesupport (>= 3.0.0)
     arel (6.0.0)
@@ -291,6 +293,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  apipie-rails
   bcrypt (~> 3.1.7)
   byebug
   coffee-rails (~> 4.1.0)
