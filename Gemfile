@@ -48,6 +48,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
 
+  gem 'capistrano-ssh-doctor', '~> 1.0'
+
   gem 'guard-rubocop'
   # used for renaming the app
   gem 'rename'
@@ -56,7 +58,9 @@ group :development, :test do
   gem 'byebug'
 
   gem 'factory_girl_rails'
+
   gem 'rspec-rails', '~> 3.0'
+
   gem 'guard-rspec', require: false
 
   # Access an IRB console on exception pages or by using <%= console %> in views

@@ -78,6 +78,8 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-ssh-doctor (1.0.0)
+      capistrano (>= 3.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chronic (0.10.2)
@@ -315,6 +317,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   capistrano-rvm
+  capistrano-ssh-doctor (~> 1.0)
   coffee-rails (~> 4.1.0)
   devise
   factory_girl_rails
