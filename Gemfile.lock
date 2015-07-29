@@ -320,7 +320,7 @@ DEPENDENCIES
   capistrano-ssh-doctor (~> 1.0)
   coffee-rails (~> 4.1.0)
   devise
-  factory_girl_rails
+  factory_girl_rails (~> 4.0)
   guard-rspec
   guard-rubocop
   hirb
