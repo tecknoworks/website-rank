@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'metric_fu'
+
 gem 'capistrano-rvm'
 
 gem 'rubocop'
