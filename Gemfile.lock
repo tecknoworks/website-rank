@@ -200,6 +200,10 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    lol_dba (2.0.0)
+      actionpack (>= 3.0, < 5.0)
+      activerecord (>= 3.0, < 5.0)
+      railties (>= 3.0, < 5.0)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.9)
@@ -426,6 +430,7 @@ DEPENDENCIES
   hirb
   jbuilder (~> 2.0)
   jquery-rails
+  lol_dba
   metric_fu
   rails (= 4.2.2)
   rename

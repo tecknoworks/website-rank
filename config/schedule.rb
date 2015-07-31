@@ -16,9 +16,9 @@
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"
 # end
-
-every 2.minutes do
-  command "echo 'you can use raw cron syntax too'"
-end
+#
+# every 2.minutes do
+#   runner "User.create!(:email => 'ionut', :password => 'password', password_confirmation => 'password')"
+# end
 
 # Learn more: http://github.com/javan/whenever

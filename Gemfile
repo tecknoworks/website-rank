@@ -1,10 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'metric_fu'
-
 gem 'capistrano-rvm'
-
-gem 'rubocop'
 
 gem 'whenever', :require => false
 
@@ -48,11 +44,19 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'lol_dba'
+
+
 group :development, :test do
+
+  gem 'rubocop'
+
+  gem 'metric_fu'
+
+  gem 'guard-rubocop'
 
   gem 'capistrano-ssh-doctor', '~> 1.0'
 
-  gem 'guard-rubocop'
   # used for renaming the app
   gem 'rename'
 
