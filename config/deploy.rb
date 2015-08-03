@@ -13,6 +13,8 @@ set :repo_url, 'git@example.com:me/my_repo.git'
 
 set :deploy_to, '/var/www/my_app_name'
 
+set :whenever_identifier, ->{ "#{fetch(:application)}_#{fetch(:stage)}" }
+
 # Default value for :scm is :git
 # set :scm, :git
 
