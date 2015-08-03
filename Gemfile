@@ -46,6 +46,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'rails-erd'
 
   gem 'lol_dba'
 
