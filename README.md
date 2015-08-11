@@ -18,14 +18,18 @@ What is inside?
 * [guard](https://github.com/guard/guard) for running tests when files or directories are modified.
 * [rubocop](https://github.com/bbatsov/rubocop) for analyzing code.
 * [metric_fu](https://github.com/metricfu/metric_fu/) for statistics about project.
+* [rails-erd](https://github.com/voormedia/rails-erd)
 * [capistrano-rvm](https://github.com/capistrano/capistrano) for deploy.
 * [capistrano-ssh-doctor](https://github.com/capistrano-plugins/capistrano-ssh-doctor) for setup and debug ssh-agent forwarding for Capistrano deployment.
 * [apipie-rails](https://github.com/Apipie/apipie-rails) for documentation.
 * [lol_dba](https://github.com/plentz/lol_dba)
 * [whenever](https://github.com/javan/whenever)
+* [config](https://github.com/railsconfig/config)
 
 To rename the app, we are using 'rename' gem.
 
 ```
 rails g rename:app_to name_of_app
 ```
+
+To override local settings create a file config/settings.local.yml

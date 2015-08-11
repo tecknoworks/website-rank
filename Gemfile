@@ -5,7 +5,7 @@ gem 'rails', '4.2.2'
 
 gem 'capistrano-rvm'
 
-gem 'whenever', :require => false
+gem 'whenever', require: false
 
 gem 'apipie-rails'
 # Use sqlite3 as the database for Active Record
@@ -38,6 +38,8 @@ gem 'activeadmin', github: 'activeadmin/activeadmin'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'config'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
