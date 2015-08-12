@@ -69,9 +69,9 @@ group :red_green_refactor, halt_on_fail: true do
     # end
   end
 
-  guard :rubocop, all_on_start: false, cli: ['--format', 'progress', '--display-cop-names', '--rails', '--config', '.rubocop_todo.yml']  do
-    watch(/.+\.rb$/)
-    watch(%r{(?:.+/)?\.rubocop\.yml$}) { |m| File.dirname(m[0]) }
-  end
+  # guard :rubocop, all_on_start: false, cli: ['--format', 'progress', '--display-cop-names', '--rails', '--config', '.rubocop_todo.yml']  do
+    # watch(/.+\.rb$/)
+    # watch(%r{(?:.+/)?\.rubocop\.yml$}) { |m| File.dirname(m[0]) }
+  # end
 
 end

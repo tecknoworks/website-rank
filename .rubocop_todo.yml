@@ -1,5 +1,6 @@
 AllCops:
   Exclude:
+    - 'bin/**'
     - 'scripts/**/**'
     - 'db/schema.rb'
     - 'public/**/**'
@@ -38,7 +39,7 @@ Metrics/PerceivedComplexity:
   Enabled: false
 
 Style/Documentation:
-  Enabled: true
+  Enabled: false
   Exclude:
     - 'db/migrate/**'
     - 'app/controllers/**/**_controller.rb'

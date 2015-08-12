@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>BookIt</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Website Rank</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <!--
+      TODO: the irony is that this website is not responsive but checks if
+      other websites are responseive
+    -->
 
-</body>
+    <style type="text/css" media="all">
+* {
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+
+    <img src="/imgs/logo.png" alt="logo" />
+
+    <%= yield %>
+
+  </body>
 </html>

@@ -1,0 +1,18 @@
+<%= flash[:message] %>
+
+<%= form_for @website, url: {action: "create"} do |f| %>
+  <%= f.text_field :url, placeholder: 'http://www.google.com' %>
+<%= f.submit "Rank" %>
+<% end %>
+
+<br />
+<br />
+<br />
+
+<h3>Past rankings</h3>
+<% @websites.each do |website| %>
+  <p>
+<%= link_to website.url, website.url %>
+<%= website.results %>
+</p>
+<% end %>
